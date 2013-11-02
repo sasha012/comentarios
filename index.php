@@ -15,9 +15,20 @@ $resultado=$connection->query("SELECT texto FROM comentario");
 <h1>Comentarios</h1>
 <textarea placeholder="aqui se escribe" id="comentarios"></textarea>
 <button id="enviar">enviar</button>
-<?php
-$arrayResultado=mysqli_fetch_array($resultado);
-?>
-<div id="comentarios-escritos"></div>
+
+
+<div id="comentarios-escritos">
+    <?php
+    $arrayResultado=mysqli_fetch_array($resultado);
+    echo "<div class='comentario-enviado'>
+<span class='fecha'>".date("H:i:s")."</span>
+<span> $arrayResultado[0]</span>
+<img src='http://www.aryan.es/img/boton_borrar_soluciones.jpg' class='eliminar-comentario'>
+
+</div>";
+
+    ?>
+
+</div>
 </body>
 </html>
