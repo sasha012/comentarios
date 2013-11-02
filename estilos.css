@@ -1,0 +1,32 @@
+#comentarios {
+   height:200px;
+    width:500px;
+       }
+#enviar {
+
+}
+textarea {
+    display:block;
+}
+.comentario-enviado {
+
+    width:500px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+    background-color:#AA9;
+    margin-top:20px;
+    box-shadow:5px 5px 15px darkblue;
+}
+
+.fecha{
+
+    background-color:aliceblue;
+    padding-left:1px;
+    padding-right:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+
+}
