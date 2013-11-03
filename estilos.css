@@ -3,22 +3,30 @@
     width:500px;
        }
 #enviar {
+    margin-left: 27.5%;
+    margin-right: auto !important;
+    width: 45%;
 
 }
-textarea {
+#comentarios{
+    width: 45%;
+    margin-left:auto !important;
+    margin-right:auto !important;
     display:block;
+}
+#comentarios-escritos {
+    width: 45%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+
 }
 .comentario-enviado {
 
-    width:500px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:10px;
-    padding-bottom:10px;
-
-    background-color:#AA9;
-    margin-top:20px;
-    box-shadow:5px 5px 15px darkblue;
+    background-color: #AAAA99;
+    box-shadow: 5px 5px 15px #00008B;
+    margin-top: 20px;
+    padding: 10px;
+    width: 470px;
 }
 
 .fecha{
@@ -33,4 +41,27 @@ textarea {
 
 .eliminar-comentario {
     float: right;
+}
+#contenido {
+
+    background-color: #ADFF2F;
+    height: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+background-color: greenyellow;
+}
+header{
+    background-color:yellowgreen;
+
+   }
+footer {
+    }
+body {
+    background-color: yellow;
+    width: 95%;
+    margin-left:auto ;
+    margin-right:auto
+
 }
