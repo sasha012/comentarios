@@ -8,18 +8,10 @@ $(document).ready(function(){
         var divComentariosEscritos="<div class='comentario-enviado'>";
         var divCompleto=divComentariosEscritos+fechaComentario+" "+texto+Eliminar+"</div>";
         $("#comentarios-escritos").append(divCompleto);
-
-
-
-
-
-
     });
 
-    $("#comentarios-escritos").on('click', '.eliminar-comentario', function(){
-        alert("BORRADO");
-
-
+    $("#comentarios-escritos").on('click', '.eliminar-comentario', function() {
+        $(this).parent().remove();
     });
 
 
